@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background: url('../img/bg3.png');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: arial, sans-serif, helvetica;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.tarjet{
+    background: #fff;
+    margin: 40px 0;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1000;
+    width: 100%;
+}
+/*------------------------------------*/
+/*-----Slider Banner */
+/*------------------------------------*/
+.sbanner{
+    overflow: hidden;
+    z-index: 1000;
+    position: relative;
+}
+.sbanner .banner{
+    position: relative;
+    width: 100%;
+}
+.sbanner .banner img{
+    vertical-align: top;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+.sbanner .barrow{
+    font-size: 35px;
+    line-height: 35px;
+    color: rgba(0,0,0,.2);
+    position: absolute;
+    top: 50%;
+    z-index: 1100;
+}
+.sbanner .barrow:hover{
+    color: rgba(51,1,95,.5);
+}
+.sbanner .prev{
+    left: 20px;
+}
+.sbanner .next{
+    right: 20px;
+}
+/*------------------------------------*/
+/*-----Slider info */
+/*------------------------------------*/
+.sinfo{
+    text-align: center;
+    overflow: hidden;
+    padding: 20px 0;
+    z-index: 1000;
+    position: relative;
+}
+.sinfo .info{
+    width: 100%;
+}
+.sinfo .info article{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.sinfo .info article .slide{
+    background: #fff;
+    width: 100%;
+    left: 100%;
+    position: absolute;
+    padding: 20px 80px;
+}
+.sinfo .iarrow{
+    font-size: 35px;
+    line-height: 35px;
+    color: #e6e6e6;
+    position: absolute;
+    top: 50%;
+    z-index: 1000;
+}
+.sinfo .iarrow:hover{
+    color: #6ed279;
+}
+.sinfo .iarrow.prev{
+    left: 20px;
+}
+.sinfo .iarrow.next{
+    right: 20px;
+}
+/*Dando estilos a los textos  de info*/
+.sinfo .info .name{
+    color: #4444;
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.sinfo .info .work{
+    color: #33015F;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 16px;
+}
+.sinfo .info .country{
+    color: #8d8d8d;
+    font-size: 14px;
+    line-height: 14px;
+}
+.sinfo .info .country img{
+    position: relative;
+    top: 2px;
+    margin-right: 10px;
+}
+.sinfo .info .sub{
+    color: #444;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.sinfo .info .text{
+    color: #55acee;
+    font-size: 18px;
+    line-height: 24px;
+}
+/*Botones del slider de info*/
+.sinfo .buttons{
+    width: 100%;
+}
+.sinfo .buttons span{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 50px;
+    background: #e6e6e6;
+}
+.sinfo .buttons .active{
+    background: #B15EFA;
+}
+/*Redes sociales*/
+.somedia{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+.somedia a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 20px;
+    padding: 14px 0;
+    color: #fff;
+    background: #000;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.somedia .facebook{
+    background: #3b5998;
+}
+.somedia .twitter{
+    background: #55acee;
+}
+.somedia .tumblr{
+    background: #35465c;
+}
